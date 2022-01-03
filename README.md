@@ -8,7 +8,7 @@ The purpose of this project is to built an application from scratch of your own 
 
 * HTML
     - Paragraphs
-    - Buttons
+    - Buttons to add and save number of people
     - ID's
 * CSS
     - Positioning of:
