@@ -1,0 +1,59 @@
+style.css
+
+body {
+    background-image: url("busy_concert.jpg");
+    /*background-size: cover;*/
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#increment-btn {
+    background: darkblue;
+    order: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#save-btn {
+    background: darkgreen;
+    order: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#container {
+    width:60%;
+    margin: auto;
+}
+
+@media screen and (max-width:768px) {
+    #container {
+        width:90%;
+    }
+}
